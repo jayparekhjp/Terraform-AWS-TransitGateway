@@ -14,4 +14,4 @@ This is a multi account deployment. To deploy this module, create a **.tfvars** 
 
 `terraform apply "plan"`
 
-![two_accounts_transit_gateway](/tgw_with_dns.jpg)
+![two_accounts_transit_gateway](/tgw_with_dns/tgw_with_dns.jpg)
