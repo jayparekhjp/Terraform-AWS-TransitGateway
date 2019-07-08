@@ -4,9 +4,9 @@ This is a multi account deployment. To deploy this module, create a **.tfvars** 
 
 ## terraform.tfvars
 
-`lab_assume = "ARN OF 1ST ACCOUNT(LAB ACCOUNT)"`
+`lab_assume_role = "ARN OF 1ST ACCOUNT(LAB ACCOUNT)"`
 
-`dev_assume = "ARN OF 2ND ACCOUNT(DEV ACCOUNT)"`
+`dev_assume_role = "ARN OF 2ND ACCOUNT(DEV ACCOUNT)"`
 
 ## Commands
 
@@ -14,4 +14,4 @@ This is a multi account deployment. To deploy this module, create a **.tfvars** 
 
 `terraform apply "plan"`
 
-![two_accounts_transit_gateway](/tgw_with_dns.png)
+![two_accounts_transit_gateway](/tgw_with_dns.jpg)
